@@ -1,0 +1,41 @@
+body {font: font-family: 'Source Sans Pro', Arial,sans-serif;}
+
+.container {
+    
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  overflow: auto;  
+    
+}
+
+
+.item {
+
+  display: table-cell;
+  text-align: center;
+
+}
+
+.item_content { 
+    
+  display: inline-block;
+  background: #000;
+  font-family: 'Alegreya Sans',Arial,sans-serif;
+  font-size: 30px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  min-width: 80px;
+  min-height: 40px;
+    
+}
+
+#red      {background: #d87171;}
+#blue     {background: #3395dd;}
+#green    {background: #8ea27d;}
